@@ -7,10 +7,10 @@ library(gridExtra)
 ###############################          Feed Data & Data Manipulation   ########################
 #################################################################################################
 
-setwd("C:/Users/neha.sharma/Desktop/Digital_Path/data")
-data1 <- read.csv("panelist_forshiny.csv",stringsAsFactors = FALSE)
+#setwd("C:/Users/neha.sharma/Desktop/Digital_Path/data")
+#data1 <- read.csv("panelist_forshiny.csv",stringsAsFactors = FALSE)
 
-
+data1 <- read.csv("./data/panelist_forshiny.csv",stringsAsFactors = FALSE)
 
 ##Filter out needed coloumns removing the Taxonomies by Hub 
 #data1 <- data1[,c("Panelist","Start_DateTime","Capped_Milliseconds","Device_Type","Web_UsageURI")]
